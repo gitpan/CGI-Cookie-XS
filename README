@@ -1,8 +1,9 @@
 NAME
-    CGI::Cookie::XS - HTTP Cookie parser in C
+    CGI::Cookie::XS - HTTP Cookie parser in pure C
 
 VERSION
-    This document describes CGI::Cookie::XS 0.13 released on August 4, 2008.
+    This document describes CGI::Cookie::XS 0.14 released on September 10,
+    2008.
 
 SYNOPSIS
         use CGI::Cookie::XS;
@@ -39,6 +40,10 @@ DESCRIPTION
     This library is still in beta stage and the API is still in flux. We're
     just following the "release early, releaes often" guideline. So please
     check back often ;)
+
+    Special effort has been made to ensure this module works in the same way
+    as the latest CGI::Cookie (i.e., the pure Perl implementation). If you
+    find it doesn't, please let us know.
 
 METHODS
     We currently provide 2 static methods, "parse" and "fetch". They work

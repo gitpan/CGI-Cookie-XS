@@ -7,7 +7,7 @@ our $VERSION;
 
 use XSLoader;
 BEGIN {
-    $VERSION = '0.13';
+    $VERSION = '0.14';
     XSLoader::load(__PACKAGE__, $VERSION);
 }
 
@@ -26,11 +26,11 @@ __END__
 
 =head1 NAME
 
-CGI::Cookie::XS - HTTP Cookie parser in C
+CGI::Cookie::XS - HTTP Cookie parser in pure C
 
 =head1 VERSION
 
-This document describes CGI::Cookie::XS 0.13 released on August 4, 2008.
+This document describes CGI::Cookie::XS 0.14 released on September 10, 2008.
 
 =head1 SYNOPSIS
 
@@ -64,6 +64,8 @@ This document describes CGI::Cookie::XS 0.13 released on August 4, 2008.
 This module implements a very simple parser for cookies used in HTTP applications. We've found L<CGI::Simple::Cookie> and L<CGI::Cookie> rather slow according to the profiling results for our L<OpenResty> project, hence the rewrite in C.
 
 This library is still in B<beta> stage and the API is still in flux. We're just following the "release early, releaes often" guideline. So please check back often ;)
+
+Special effort has been made to ensure this module works in the same way as the latest L<CGI::Cookie> (i.e., the pure Perl implementation). If you find it doesn't, please let us know.
 
 =head1 METHODS
 
