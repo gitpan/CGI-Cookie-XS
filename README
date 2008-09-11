@@ -2,7 +2,7 @@ NAME
     CGI::Cookie::XS - HTTP Cookie parser in pure C
 
 VERSION
-    This document describes CGI::Cookie::XS 0.14 released on September 10,
+    This document describes CGI::Cookie::XS 0.15 released on September 11,
     2008.
 
 SYNOPSIS

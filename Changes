@@ -1,3 +1,7 @@
+0.15 Sep 11 2008
+* Some minor optimization (";" is never actually used to separate multiple values for a single key).
+* Added Filter::Util::Call to the dependency list.
+
 0.14 Sep 10 2008
 * Carefully reviewed the old implementation and gave it a massive rewrite.
 * Fixed the issue in #39120
