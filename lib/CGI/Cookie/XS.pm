@@ -7,7 +7,7 @@ our $VERSION;
 
 use XSLoader;
 BEGIN {
-    $VERSION = '0.17';
+    $VERSION = '0.18';
     XSLoader::load(__PACKAGE__, $VERSION);
 }
 
@@ -30,7 +30,7 @@ CGI::Cookie::XS - HTTP Cookie parser in pure C
 
 =head1 VERSION
 
-This document describes CGI::Cookie::XS 0.17 released on September 2, 2009.
+This document describes CGI::Cookie::XS 0.18 released on September 2, 2009.
 
 =head1 SYNOPSIS
 
@@ -105,9 +105,9 @@ Removing trailing spaces in cookie values.
 =head1 SOURCE CONTROL
 
 For the very latest version of this module, check out the source from
-the SVN repos below:
+the Git repos below:
 
-L<http://svn.openfoundry.org/cookieparser>
+L<http://github.com/agentzh/cookiexs/>
 
 There is anonymous access to all. If you'd like a commit bit, please let
 us know. :)
@@ -136,6 +136,7 @@ L<CGI::Cookie>, L<CGI::Cookie::Simple>.
 =head1 COPYRIGHT
 
 Copyright (c) 2008 by Yahoo! China EEEE Works, Alibaba Inc.
+
 Copyright (c) 2009 by Taobao Inc., Alibaba Group.
 
 =head1 License
